@@ -5,7 +5,7 @@ class CreateCommits < ActiveRecord::Migration
       t.text :message
       t.text :url
       t.datetime :time
-      t.boolean :notified, default: :boolean
+      t.boolean :notified
 
       t.timestamps
     end
