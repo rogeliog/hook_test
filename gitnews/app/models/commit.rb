@@ -8,6 +8,7 @@ class Commit < ActiveRecord::Base
     self.message = json['message']
     self.time    = Time.parse json['timestamp']
     self.url     = json['url']
+    self
   end
   
 end

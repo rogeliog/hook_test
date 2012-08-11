@@ -1,4 +1,5 @@
 Gitnews::Application.routes.draw do
+  resources :commits, only: [:create]
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

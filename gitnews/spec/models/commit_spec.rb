@@ -32,4 +32,5 @@ describe Commit do
       Commit.not_notified.should == []
     end
   end
+
 end
